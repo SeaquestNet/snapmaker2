@@ -65,7 +65,7 @@
             "default_value": "Snapmaker 2.0 - A350"
         },
         "machine_start_gcode": {
-            "default_value": ";Start GCode begin\n;Sliced at: {day} {date} {time}\nM140 S{material_bed_temperature_layer_0}\nG28 ;home\nG1 X-10 Y-10 F3000\nG1 Z0 F1800\nM104 S{material_initial_print_temperature} T0 ; Set temps\nM109 S{material_initial_print_temperature} T0 ; Wait for temps\nM190 S{material_bed_temperature_layer_0}\nG92 E0\nG1 E20 F200\nG92 E0\n;Start GCode end"
+            "default_value": ";Start GCode begin\n;Sliced at: {day} {date} {time}\nM140 S{material_bed_temperature_layer_0}\nG28 ;home\nG1 X-10 Y-10 F3000\nG1 Z0 F1800\nM104 S170 T0 ; Set temps\nM190 S{material_bed_temperature_layer_0}\nM104 S{material_initial_print_temperature} T0 ; Set temps\nM109 S{material_initial_print_temperature} T0 ; Wait for temps\nG92 E0\nG1 E20 F200\nG92 E0\n;Start GCode end"
         },
         "machine_use_extruder_offset_to_offset_coords": {
             "default_value": true
