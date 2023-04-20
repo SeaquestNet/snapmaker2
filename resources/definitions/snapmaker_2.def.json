@@ -1,11 +1,11 @@
 {
     "inherits": "fdmprinter",
     "metadata": {
-        "author": "Snapmaker Community",
+        "author": "Nicklas Sjöqvist",
         "exclude_materials": [],
         "file_formats": "text/x-gcode",
         "first_start_actions": [],
-        "has_machine_quality": false,
+        "has_machine_quality": true,
         "has_materials": true,
         "has_variants": false,
         "manufacturer": "Snapmaker",
@@ -16,7 +16,7 @@
         "visible": false,
         "weight": 0
     },
-    "name": "Snapmaker 2.0",
+    "name": "Snapmaker 2",
     "overrides": {
         "adhesion_type": {
             "default_value": "none"

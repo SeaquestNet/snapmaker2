@@ -5,8 +5,6 @@
         "exclude_materials": [],
         "file_formats": "text/x-gcode",
         "first_start_actions": [],
-        "has_machine_quality": true,
-        "has_materials": true,
         "machine_extruder_trains": {
             "0": "snapmaker_2_extruder_0"
         },
@@ -16,7 +14,7 @@
         "visible": true,
         "weight": 4
     },
-    "name": "Snapmaker 2.0 - A350",
+    "name": "Snapmaker 2 A350",
     "overrides": {
         "gantry_height": {
             "value": 35
